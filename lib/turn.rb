@@ -23,4 +23,8 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
 end
+
+def move(input)
+  board[index] = input
+end
     
