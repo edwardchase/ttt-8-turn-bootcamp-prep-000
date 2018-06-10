@@ -25,6 +25,6 @@ def turn(board)
 end
 
 def move(board, index, token = 'X')
-  board[index] = input
+  board[index] = token
 end
     
